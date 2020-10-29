@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+<!-- Styles block -->
+
+{%block styles%}
+{{super()}}
+
+{%endblock%}
+<!-- Content block -->
+{%block content%}
+
+<div class="container mt-5 text-center">
+    <h1>Amazing one minute Pitch</h1>
+
+    <a href="{{url_for('main.new_pitch')}}" class="btn btn-primary">ADD PITCH</a>
+
+    <div class="row">
+        <div class="well well-lg text-center">
+            <h3>Interview Pitches</h3>
+            <a href="{{url_for('main.interview_pitches')}}" class="btn btn-primary text-center">View</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="well text-center">
+            <h3>Promotion Pitches</h3>
+            <a href="{{url_for('main.promotion_pitches')}}" class="btn btn-primary -center">View</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="well well-lg text-center">
+            <h3>Product Pitches</h3>
+            <a href="{{url_for('main.product_pitches')}}" class="btn btn-primary -center">View</a>
+        </div>
+    </div>
+    
+</div>
+
+
+{%endblock%}

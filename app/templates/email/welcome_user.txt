@@ -1,0 +1,3 @@
+Hello {{user.username}} Welcome 
+Start sharing your pitches to everyone.
+Jibambe!!!!

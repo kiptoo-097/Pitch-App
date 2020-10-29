@@ -79,3 +79,10 @@ def interview_pitches():
 
     return render_template("interview_pitches.html", pitches = pitches)
 
+@main.route('/pitches/product_pitches')
+def product_pitches():
+
+    pitches = Pitch.get_pitches('product')
+
+    return render_template("product_pitches.html", pitches = pitches)
+

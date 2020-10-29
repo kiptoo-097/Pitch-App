@@ -53,7 +53,7 @@ export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@loca
 4. Running the application
 
 ```bash
-python3.6 app.py server
+python3.8 app.py server
 ```
 
 Open the application on your browser `127.0.0.1:5000`.
@@ -74,5 +74,5 @@ kiptoo097@gmail.com
 
 ## License
  
- Licensed under[MIT license](license)
+ Licensed under[MIT license](https://github.com/kiptoo-097/Pitch-App/blob/master/LICENSE.md)
 
